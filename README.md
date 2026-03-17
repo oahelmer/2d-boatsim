@@ -1,5 +1,6 @@
 ## Equations of Motion
 The generalized coordinates are
+
 $$
 q = [x , v_x , y , v_y , \theta , \omega , \phi , \dot{\phi}]^T
 $$
