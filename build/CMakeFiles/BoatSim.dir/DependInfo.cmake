@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ole/Documents/modsim/sim/2d-boatsim/main.cpp" "CMakeFiles/BoatSim.dir/main.cpp.o" "gcc" "CMakeFiles/BoatSim.dir/main.cpp.o.d"
   "/home/ole/Documents/modsim/sim/2d-boatsim/src/boat.cpp" "CMakeFiles/BoatSim.dir/src/boat.cpp.o" "gcc" "CMakeFiles/BoatSim.dir/src/boat.cpp.o.d"
   "/home/ole/Documents/modsim/sim/2d-boatsim/src/constants.cpp" "CMakeFiles/BoatSim.dir/src/constants.cpp.o" "gcc" "CMakeFiles/BoatSim.dir/src/constants.cpp.o.d"
+  "/home/ole/Documents/modsim/sim/2d-boatsim/src/losguidance.cpp" "CMakeFiles/BoatSim.dir/src/losguidance.cpp.o" "gcc" "CMakeFiles/BoatSim.dir/src/losguidance.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

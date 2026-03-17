@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BoatSim.dir/src/boat.cpp.o.d"
   "CMakeFiles/BoatSim.dir/src/constants.cpp.o"
   "CMakeFiles/BoatSim.dir/src/constants.cpp.o.d"
+  "CMakeFiles/BoatSim.dir/src/losguidance.cpp.o"
+  "CMakeFiles/BoatSim.dir/src/losguidance.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

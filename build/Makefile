@@ -201,6 +201,30 @@ src/constants.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/src/constants.cpp.s
 .PHONY : src/constants.cpp.s
 
+src/losguidance.o: src/losguidance.cpp.o
+.PHONY : src/losguidance.o
+
+# target to build an object file
+src/losguidance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/src/losguidance.cpp.o
+.PHONY : src/losguidance.cpp.o
+
+src/losguidance.i: src/losguidance.cpp.i
+.PHONY : src/losguidance.i
+
+# target to preprocess a source file
+src/losguidance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/src/losguidance.cpp.i
+.PHONY : src/losguidance.cpp.i
+
+src/losguidance.s: src/losguidance.cpp.s
+.PHONY : src/losguidance.s
+
+# target to generate assembly for a file
+src/losguidance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/src/losguidance.cpp.s
+.PHONY : src/losguidance.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... src/constants.o"
 	@echo "... src/constants.i"
 	@echo "... src/constants.s"
+	@echo "... src/losguidance.o"
+	@echo "... src/losguidance.i"
+	@echo "... src/losguidance.s"
 .PHONY : help
 
 

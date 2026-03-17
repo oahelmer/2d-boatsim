@@ -63,4 +63,7 @@ CMakeFiles/BoatSim.dir/main.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
+ /home/ole/Documents/modsim/sim/2d-boatsim/src/constants.h \
+ /home/ole/Documents/modsim/sim/2d-boatsim/src/losguidance.h \
+ /home/ole/Documents/modsim/sim/2d-boatsim/src/boat.h \
  /home/ole/Documents/modsim/sim/2d-boatsim/src/constants.h

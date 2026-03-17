@@ -13,6 +13,7 @@ add_executable(BoatSim
     main.cpp 
     src/boat.cpp 
     src/constants.cpp
+    src/losguidance.cpp
 )
 
 target_link_libraries(BoatSim GLEW::GLEW glfw OpenGL::GL)
