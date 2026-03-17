@@ -1,0 +1,3 @@
+/home/ole/Documents/modsim/sim/2d-boatsim/build/CMakeFiles/BoatSim.dir
+/home/ole/Documents/modsim/sim/2d-boatsim/build/CMakeFiles/edit_cache.dir
+/home/ole/Documents/modsim/sim/2d-boatsim/build/CMakeFiles/rebuild_cache.dir
