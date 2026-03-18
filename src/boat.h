@@ -12,7 +12,7 @@ public:
     State state;
     Boat();
     void update(float dt, float F, float tau);
-    void draw();
+    void draw(float r, float g, float b);
 private:
     State f(State s, float F, float tau);
 };

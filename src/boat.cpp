@@ -49,14 +49,14 @@ void Boat::update(float dt, float F, float tau) {
     state.dphi  += (dt/6.0f) * (k1.dphi + 2*k2.dphi + 2*k3.dphi + k4.dphi);
 }
 
-void Boat::draw() {
+void Boat::draw(float r, float g, float b) {
     glPushMatrix();
     glTranslatef(state.x, state.y, 0);
     glRotatef(-state.theta * 180.0f / 3.14159f, 0, 0, 1);
     
     // Draw Boat Hull
     glBegin(GL_TRIANGLES);
-    glColor3f(0.0f, 0.7f, 1.0f);
+    glColor3f(r,g,b);
     glVertex2f(0.0f, 0.5f + L);   // front of boat
     glVertex2f(-0.3f, -0.5f - L); // back left of boat
     glVertex2f(0.3f, -0.5f - L);  // back right of boat

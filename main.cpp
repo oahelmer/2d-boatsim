@@ -94,9 +94,9 @@ int main() {
 
         drawReferenceSquares();
         drawPath();
-        playerBoat.draw();
-        guidedBoat.draw();
-        rlBoat.draw();
+        playerBoat.draw(0.0f, 0.7f, 1.0f);
+        guidedBoat.draw(1.0f, 0.7f, 0.0f);
+        rlBoat.draw(0.0f, 1.0f, 0.0f);
 
         glfwSwapBuffers(window);
         glfwPollEvents();
