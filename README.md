@@ -6,7 +6,7 @@ You drive your boat by tilting the motor with the left and right arrow keys, and
 Your competitors have two different control systems. 
 1. the slower one is a LOS guidance system using a PD regulator for path following
 
-2. the faster one is a Reinforcement learning AI that is trained to drive the boat to follow a given path, so this is the nonlinear option to the other boat. 
+2. the faster one is a Reinforcement learning AI that is trained to drive the boat to follow a given path, so this is the nonlinear alternative to the other boat. 
 
 
 ## to run the code with the ai I trained:
