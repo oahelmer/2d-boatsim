@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "BoatSim.pdb"
   "CMakeFiles/BoatSim.dir/main.cpp.o"
   "CMakeFiles/BoatSim.dir/main.cpp.o.d"
+  "CMakeFiles/BoatSim.dir/src/RLcontroller.cpp.o"
+  "CMakeFiles/BoatSim.dir/src/RLcontroller.cpp.o.d"
   "CMakeFiles/BoatSim.dir/src/boat.cpp.o"
   "CMakeFiles/BoatSim.dir/src/boat.cpp.o.d"
   "CMakeFiles/BoatSim.dir/src/constants.cpp.o"

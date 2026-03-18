@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ole/Documents/modsim/sim/2d-boatsim/src
+CXX_INCLUDES = -I/home/ole/Documents/modsim/sim/2d-boatsim/src -I/home/ole/Documents/modsim/sim/2d-boatsim/src/onnxruntime-linux-x64-gpu-1.24.4/include
 
 CXX_FLAGS = -std=gnu++17
 

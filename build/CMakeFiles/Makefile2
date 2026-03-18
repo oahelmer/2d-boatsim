@@ -85,12 +85,12 @@ clean: CMakeFiles/BoatSim.dir/clean
 CMakeFiles/BoatSim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ole/Documents/modsim/sim/2d-boatsim/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target BoatSim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ole/Documents/modsim/sim/2d-boatsim/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target BoatSim"
 .PHONY : CMakeFiles/BoatSim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BoatSim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ole/Documents/modsim/sim/2d-boatsim/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ole/Documents/modsim/sim/2d-boatsim/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BoatSim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ole/Documents/modsim/sim/2d-boatsim/build/CMakeFiles 0
 .PHONY : CMakeFiles/BoatSim.dir/rule
@@ -102,7 +102,7 @@ BoatSim: CMakeFiles/BoatSim.dir/rule
 # codegen rule for target.
 CMakeFiles/BoatSim.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ole/Documents/modsim/sim/2d-boatsim/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target BoatSim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ole/Documents/modsim/sim/2d-boatsim/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target BoatSim"
 .PHONY : CMakeFiles/BoatSim.dir/codegen
 
 # clean rule for target.

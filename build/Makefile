@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/RLcontroller.o: src/RLcontroller.cpp.o
+.PHONY : src/RLcontroller.o
+
+# target to build an object file
+src/RLcontroller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/src/RLcontroller.cpp.o
+.PHONY : src/RLcontroller.cpp.o
+
+src/RLcontroller.i: src/RLcontroller.cpp.i
+.PHONY : src/RLcontroller.i
+
+# target to preprocess a source file
+src/RLcontroller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/src/RLcontroller.cpp.i
+.PHONY : src/RLcontroller.cpp.i
+
+src/RLcontroller.s: src/RLcontroller.cpp.s
+.PHONY : src/RLcontroller.s
+
+# target to generate assembly for a file
+src/RLcontroller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoatSim.dir/build.make CMakeFiles/BoatSim.dir/src/RLcontroller.cpp.s
+.PHONY : src/RLcontroller.cpp.s
+
 src/boat.o: src/boat.cpp.o
 .PHONY : src/boat.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/RLcontroller.o"
+	@echo "... src/RLcontroller.i"
+	@echo "... src/RLcontroller.s"
 	@echo "... src/boat.o"
 	@echo "... src/boat.i"
 	@echo "... src/boat.s"

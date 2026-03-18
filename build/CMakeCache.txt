@@ -242,6 +242,9 @@ GLEW_STATIC_LIBRARY_DEBUG:FILEPATH=GLEW_STATIC_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 GLEW_STATIC_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libGLEW.a
 
+//Path to a library.
+ONNXRUNTIME_LIB:FILEPATH=/home/ole/Documents/modsim/sim/2d-boatsim/src/onnxruntime-linux-x64-gpu-1.24.4/lib/libonnxruntime.so
+
 //Path to a file.
 OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
 

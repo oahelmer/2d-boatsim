@@ -3,6 +3,7 @@
 #include "boat.h"
 #include "constants.h"
 #include "losguidance.h"
+#include "RLcontroller.h"
 
 float currentF = 0, currentTau = 0;
 
@@ -56,13 +57,14 @@ int main() {
     glfwMakeContextCurrent(window);
     glewInit();
 
-    Boat boat;
     Boat playerBoat;
     Boat guidedBoat;
+    Boat rlBoat;
 
     // Define a square path
     std::vector<Waypoint> path = {{0,0}, {50,0}, {50,50}, {0,50}, {0,0}};
     LOSController controller(path);
+    RLController rlController(path, "boat_policy.onnx");
 
     float lastTime = glfwGetTime();
 
@@ -79,6 +81,10 @@ int main() {
         auto [aiF, aiTau] = controller.computeControl(guidedBoat.state, dt);
         guidedBoat.update(dt, aiF, aiTau);
 
+        // New RL Boat
+        auto [rlF, rlTau] = rlController.computeControl(rlBoat.state, dt);
+        rlBoat.update(dt, rlF, rlTau);
+
         glClear(GL_COLOR_BUFFER_BIT);
         glLoadIdentity();
 
@@ -90,6 +96,7 @@ int main() {
         drawPath();
         playerBoat.draw();
         guidedBoat.draw();
+        rlBoat.draw();
 
         glfwSwapBuffers(window);
         glfwPollEvents();
