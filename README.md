@@ -5,6 +5,7 @@ A real-time 2D simulation of an underactuated surface vessel, featuring a physic
 ---
 
 ![Demo](2d-boatsim-video-ezgif.com-crop.gif)
+
 *Blue: manual control , Orange: LOS guidance , Green: RL policy*
 
 ---
